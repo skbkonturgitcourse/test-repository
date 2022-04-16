@@ -1,0 +1,25 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=45eda003_002D675c_002D4a53_002Db226_002Df661313ac467/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="HomeWork" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::828E7381-BD14-4B06-905B-6CFF952449B8::.NETFramework,Version=v3.5::ParrotNameSite.HomeWork&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=50cc3d70_002D5819_002D4db2_002Dacc2_002D26235aca805d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=68e16916_002D0389_002D44a5_002D975c_002D7ae51380ebaa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ParrotName_RadioM_Click_Enabled" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::828E7381-BD14-4B06-905B-6CFF952449B8::.NETFramework,Version=v3.5::ParrotNameSite.HomeWork.ParrotName_RadioM_Click_Enabled&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6e638522_002D5069_002D45f6_002D8593_002D192933a55270/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;ParrotNameSite&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite" Presentation="&amp;lt;ParrotNameSite&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6ecbea14_002D5b73_002D4a20_002Da3e9_002D410bcdfa72aa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;ParrotNameSite&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite" Presentation="&amp;lt;ParrotNameSite&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cd4a1d35_002D3daf_002D446c_002Dba5e_002D618a238a08d6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ParrotName_RadioM_Click_Enabled #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::828E7381-BD14-4B06-905B-6CFF952449B8::.NETFramework,Version=v3.5::ParrotNameSite.HomeWork.ParrotName_RadioM_Click_Enabled&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

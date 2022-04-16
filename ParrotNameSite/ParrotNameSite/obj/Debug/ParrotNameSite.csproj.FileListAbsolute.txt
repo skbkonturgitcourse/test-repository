@@ -1,0 +1,12 @@
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\obj\Debug\ParrotNameSite.csproj.AssemblyReference.cache
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\obj\Debug\ParrotNameSite.csproj.CoreCompileInputs.cache
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\bin\Debug\ParrotNameSite.dll
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\bin\Debug\ParrotNameSite.pdb
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\bin\Debug\nunit.framework.dll
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\bin\Debug\WebDriver.dll
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\bin\Debug\nunit.framework.xml
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\bin\Debug\WebDriver.xml
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\obj\Debug\ParrotNameSite.csproj.CopyComplete
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\obj\Debug\ParrotNameSite.dll
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\obj\Debug\ParrotNameSite.pdb
+C:\Users\refor\RiderProjects\ParrotNameSite\ParrotNameSite\bin\Debug\chromedriver.exe
