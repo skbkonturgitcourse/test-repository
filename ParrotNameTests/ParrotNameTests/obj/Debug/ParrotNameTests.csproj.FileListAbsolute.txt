@@ -1,0 +1,11 @@
+C:\Users\nckit\OneDrive\Рабочий стол\тестирование\Rider\ParrotNameTests\ParrotNameTests\bin\Debug\ParrotNameTests.dll
+C:\Users\nckit\OneDrive\Рабочий стол\тестирование\Rider\ParrotNameTests\ParrotNameTests\bin\Debug\ParrotNameTests.pdb
+C:\Users\nckit\OneDrive\Рабочий стол\тестирование\Rider\ParrotNameTests\ParrotNameTests\bin\Debug\nunit.framework.dll
+C:\Users\nckit\OneDrive\Рабочий стол\тестирование\Rider\ParrotNameTests\ParrotNameTests\bin\Debug\WebDriver.dll
+C:\Users\nckit\OneDrive\Рабочий стол\тестирование\Rider\ParrotNameTests\ParrotNameTests\bin\Debug\nunit.framework.xml
+C:\Users\nckit\OneDrive\Рабочий стол\тестирование\Rider\ParrotNameTests\ParrotNameTests\obj\Debug\ParrotNameTests.csprojAssemblyReference.cache
+C:\Users\nckit\OneDrive\Рабочий стол\тестирование\Rider\ParrotNameTests\ParrotNameTests\obj\Debug\ParrotNameTests.csproj.CoreCompileInputs.cache
+C:\Users\nckit\OneDrive\Рабочий стол\тестирование\Rider\ParrotNameTests\ParrotNameTests\obj\Debug\ParrotNameTests.csproj.CopyComplete
+C:\Users\nckit\OneDrive\Рабочий стол\тестирование\Rider\ParrotNameTests\ParrotNameTests\obj\Debug\ParrotNameTests.dll
+C:\Users\nckit\OneDrive\Рабочий стол\тестирование\Rider\ParrotNameTests\ParrotNameTests\obj\Debug\ParrotNameTests.pdb
+C:\Users\nckit\OneDrive\Рабочий стол\тестирование\Rider\ParrotNameTests\ParrotNameTests\bin\Debug\chromedriver.exe
