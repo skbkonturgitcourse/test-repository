@@ -65,6 +65,8 @@ public class EmailFormTest
     
     [TestCase("", false)]
     [TestCase("test.ru", false)]
+    [TestCase("test@test.", false)]
+    [TestCase("@test.ru", false)]
     [TestCase("тест@тест.рф", true)]
     [TestCase("test@test.ru", true)]
     public void EmailCollectingPage_SendEmail_SuccessIfEmailIsValid(string email, bool emailIsValid)
@@ -72,7 +74,7 @@ public class EmailFormTest
         driver.FindElement(emailInputLocator).SendKeys(email);
         driver.FindElement(emailButtonLocator).Click();
         Assert.AreEqual(driver.FindElement(emailValidationLocator).Displayed, !emailIsValid,
-            $"Валидация почты {new string(emailIsValid ? "зря" : "не")} сработала"
+            $"Валидация {new string(emailIsValid ? "зря" : "не")} сработала. Почта: {email}"
             );
         var successElements = driver.FindElements(successEmailLocator);
         Assert.AreEqual(successElements.Count, (emailIsValid) ? 1 : 0, 
