@@ -1,0 +1,12 @@
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\SeleniumTests.dll
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\SeleniumTests.pdb
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\nunit.framework.dll
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\WebDriver.dll
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\nunit.framework.xml
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\WebDriver.xml
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\obj\Debug\SeleniumTests.csproj.AssemblyReference.cache
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\obj\Debug\SeleniumTests.csproj.CoreCompileInputs.cache
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\obj\Debug\SeleniumTests.csproj.CopyComplete
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\obj\Debug\SeleniumTests.dll
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\obj\Debug\SeleniumTests.pdb
+C:\Users\natal\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\chromedriver.exe

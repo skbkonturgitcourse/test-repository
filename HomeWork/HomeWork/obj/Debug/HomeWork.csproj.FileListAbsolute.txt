@@ -1,0 +1,11 @@
+C:\Users\natal\RiderProjects\HomeWork\HomeWork\bin\Debug\HomeWork.dll
+C:\Users\natal\RiderProjects\HomeWork\HomeWork\bin\Debug\HomeWork.pdb
+C:\Users\natal\RiderProjects\HomeWork\HomeWork\bin\Debug\nunit.framework.dll
+C:\Users\natal\RiderProjects\HomeWork\HomeWork\bin\Debug\WebDriver.dll
+C:\Users\natal\RiderProjects\HomeWork\HomeWork\bin\Debug\nunit.framework.xml
+C:\Users\natal\RiderProjects\HomeWork\HomeWork\bin\Debug\WebDriver.xml
+C:\Users\natal\RiderProjects\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.AssemblyReference.cache
+C:\Users\natal\RiderProjects\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.CoreCompileInputs.cache
+C:\Users\natal\RiderProjects\HomeWork\HomeWork\obj\Debug\HomeWork.csproj.CopyComplete
+C:\Users\natal\RiderProjects\HomeWork\HomeWork\obj\Debug\HomeWork.dll
+C:\Users\natal\RiderProjects\HomeWork\HomeWork\obj\Debug\HomeWork.pdb
