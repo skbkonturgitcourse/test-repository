@@ -110,16 +110,14 @@ public class EmailFormTest
         }
         driver.FindElement(emailInputLocator).SendKeys("test@test.ru");
         driver.FindElement(emailButtonLocator).Click();
-        var parrotSex = (maleIsSelected) ? "мальчик" : "девочк";
+        var parrotSexText = (maleIsSelected) ? "вашего мальчика" : "вашей девочки";
         Assert.Multiple(() =>
         {
-            Assert.IsTrue(driver.FindElement(successTextLocator).Text.Contains(parrotSex),
-                $"Выбранный пол: {parrotSex}.\n Текст после отправки формы: {driver.FindElement(successTextLocator).Text}"
+            Assert.IsTrue(driver.FindElement(successTextLocator).Text.Contains(parrotSexText),
+                $"Текст подтверждения не содержит выбранный пол: {parrotSexText}."
             );
             Assert.That(driver.FindElement(successTextLocator).Text, 
-                Is.EqualTo($"Хорошо, мы пришлём имя для " +
-                $"{new string(maleIsSelected ? "вашего мальчика" : "вашей девочки")} " +
-                $"на e-mail:"),
+                Is.EqualTo($"Хорошо, мы пришлём имя для {parrotSexText}" + " на e-mail:"),
                 "Текст подтверждения отправки формы не соответствует прототипам");
         });
     }
