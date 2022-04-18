@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ae0831ef_002D7f30_002D4bf9_002D95f7_002Dc6a70daa8675/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1 #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4FB2E1D4-447B-445B-AF03-BB5C42894D15::.NETCoreApp,Version=v3.1::SeleniumTests.FirstSeleniumTests.FixPC_SendEmail_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::4FB2E1D4-447B-445B-AF03-BB5C42894D15::.NETCoreApp,Version=v3.1::SeleniumTests.FirstSeleniumTests.FixPC_ClickAnotherEmail_Success&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,28 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d7c6ba9e_002D7aaa_002D4931_002D894c_002Da0ede94712a2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Wikipedia_Search_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.ParrotName_Female_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.ParrotName_Male_AnotherEmail_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.ParrotName_Male_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.ParrotName_Female_AnotherEmail_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.EmptyEmailGetError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.FemaleEmptyEmailGetError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.SwitchingBoyGirlRadioButtons&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e69003eb_002D33d3_002D437c_002Da8f4_002D77ab4554f80d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ParrotName_Female_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.ParrotName_Female_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.ParrotName_Male_AnotherEmail_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.ParrotName_Male_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.ParrotName_Female_AnotherEmail_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.EmptyEmailGetError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.FemaleEmptyEmailGetError&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.SwitchingBoyGirlRadioButtons&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ec1b9a17_002D6926_002D462b_002D8b46_002D652fe566a15e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SwitchingBoyGirlRadioButtons" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::DB9ACDA9-48EF-4294-B914-5704927253A1::.NETCoreApp,Version=v3.1::HomeWork.HomeworkTests.IncorrectEmailGetError_Success&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
