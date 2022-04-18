@@ -1,0 +1,12 @@
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\obj\Debug\CianTest.csproj.AssemblyReference.cache
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\obj\Debug\CianTest.csproj.CoreCompileInputs.cache
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\bin\Debug\chromedriver.exe
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\bin\Debug\CianTest.dll
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\bin\Debug\CianTest.pdb
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\bin\Debug\nunit.framework.dll
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\bin\Debug\WebDriver.dll
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\bin\Debug\nunit.framework.xml
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\bin\Debug\WebDriver.xml
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\obj\Debug\CianTest.csproj.CopyComplete
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\obj\Debug\CianTest.dll
+C:\Skillbox\new_rider\JetBrains Rider 2021.3.4\study\CianTest\CianTest\obj\Debug\CianTest.pdb
