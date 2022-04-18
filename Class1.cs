@@ -110,11 +110,11 @@ public void InvalideEmail()
 //указать корректный адрес емаила
     var email = "test1@mail";
     driver.FindElement(emailInputLokator).SendKeys(email);
-//Нажать кнопку
+//Нажать кнопку "Подобрать имя"
     driver.FindElement(buttonWruteToMeLokator).Click();
-//проверяем, что появился текст ошибки
+//Проверяем, что появился текст ошибки
     Assert.IsTrue(driver.FindElement(ErrorMessage).Displayed, "Сообщение об ошибке отображается");
-//проверяем, что текст корректный
+//Проверяем, что текст корректный
     Assert.AreEqual(expectedResultText, driver.FindElement(ErrorMessage).Text, "Неверное сообщение об ошибке");
 }
 
@@ -126,7 +126,7 @@ public void ClickLinkAnotherEmailSuccess()
 // Ввести в поле корректный емаил
 // Нажать кнопку "Подобрать имя"
 // Нажать на ссылку "Указать другой емаил"
-// Проверить что поле емайла очищенно
+// Проверить, что поле емайла очищенно
 // Убедиться, что кнопка "Подбрать имя" появилась и сслыка "Указать другой емаил" исчезла
    
 //перейти по урлу
@@ -135,15 +135,15 @@ public void ClickLinkAnotherEmailSuccess()
 //Указать алрес емайла 
     var email = "test1@mail.ru";
     driver.FindElement(emailInputLokator).SendKeys(email);
-//Нажать кнопку
+//Нажать кнопку "Подобрать имя"
     driver.FindElement(buttonWruteToMeLokator).Click();
 //Кликнуть ссылку "указать другой емаил"
     driver.FindElement(By.LinkText("указать другой e-mail")).Click();
-//Проверим что поле очищено
+//Проверим, что поле очищено
     Assert.IsEmpty(driver.FindElement(emailInputLokator).Text, "Ожидали что поле для ввода емейла очистится");
-//Проверим что кнопка появилась
+//Проверим, что кнопка появилась
     Assert.IsTrue(driver.FindElement(buttonWruteToMeLokator).Displayed, "Ожидали, что кнопка 'Подобрать имя' отображается");
-//Проверим что исчезла ссылка "указать другой емаил"
+//Проверим, что исчезла ссылка "указать другой емаил"
     Assert.AreEqual(0, driver.FindElements(By.LinkText("указать другой e-mail")).Count);
 }
 
