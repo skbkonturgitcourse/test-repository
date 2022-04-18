@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zl/FD/PJmxZAtnle4HIB1dBVhxwcNsfms9jHMhMhClgWnqOdS7jXbK9jmjLdwGtpzF+1dqb0/gYEwj785m+Kpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\K0man4\\RiderProjects\\Homework\\Homework\\Homework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\K0man4\\.nuget\\packages\\microsoft.codecoverage\\17.2.0-preview-20220401-08\\microsoft.codecoverage.17.2.0-preview-20220401-08.nupkg.sha512",
+    "C:\\Users\\K0man4\\.nuget\\packages\\microsoft.net.test.sdk\\17.2.0-preview-20220401-08\\microsoft.net.test.sdk.17.2.0-preview-20220401-08.nupkg.sha512",
+    "C:\\Users\\K0man4\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\K0man4\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.2.0-preview-20220401-08\\microsoft.testplatform.objectmodel.17.2.0-preview-20220401-08.nupkg.sha512",
+    "C:\\Users\\K0man4\\.nuget\\packages\\microsoft.testplatform.testhost\\17.2.0-preview-20220401-08\\microsoft.testplatform.testhost.17.2.0-preview-20220401-08.nupkg.sha512",
+    "C:\\Users\\K0man4\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\K0man4\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\K0man4\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\K0man4\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\K0man4\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512",
+    "C:\\Users\\K0man4\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,24 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=30090808_002Dd3f9_002D481a_002Da3b3_002Db7159beacab8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1 #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C6D30B27-F373-4265-99C5-925AB8DBFA3B::net6.0::Homework.HomeworkTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=733bca4c_002D010a_002D48c9_002Db83b_002De8e581721791/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CorrectEmail_Female_InfoMessage" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C6D30B27-F373-4265-99C5-925AB8DBFA3B::net6.0::Homework.HomeworkTest.CorrectEmail_Female_InfoMessage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C6D30B27-F373-4265-99C5-925AB8DBFA3B::net6.0::Homework.HomeworkTest.Incorrect_Email_Input&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C6D30B27-F373-4265-99C5-925AB8DBFA3B::net6.0::Homework.HomeworkTest.CorrectEmailInput_SuccessfulEmailInfoMessage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C6D30B27-F373-4265-99C5-925AB8DBFA3B::net6.0::Homework.HomeworkTest.UI_Lesson_Course_Check&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/SpawnedProcessesKnownList/=chromedriver_002Eexe/@EntryIndexedValue">KillOrphaned</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/SpawnedProcessesKnownList/=conhost_002Eexe/@EntryIndexedValue">KillOrphaned</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=_0432_0432_0435_0434_0451_043D_043D_043E_0439/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=_0438_043C_0451_043D/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=_043F_043E_0434_0431_0435_0440_0451_043C/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
