@@ -1,0 +1,12 @@
+C:\Users\annpr\RiderProjects\domashka\domashka\bin\Debug\domashka.dll
+C:\Users\annpr\RiderProjects\domashka\domashka\bin\Debug\domashka.pdb
+C:\Users\annpr\RiderProjects\domashka\domashka\bin\Debug\nunit.framework.dll
+C:\Users\annpr\RiderProjects\domashka\domashka\bin\Debug\WebDriver.dll
+C:\Users\annpr\RiderProjects\domashka\domashka\bin\Debug\nunit.framework.xml
+C:\Users\annpr\RiderProjects\domashka\domashka\bin\Debug\WebDriver.xml
+C:\Users\annpr\RiderProjects\domashka\domashka\obj\Debug\domashka.csproj.AssemblyReference.cache
+C:\Users\annpr\RiderProjects\domashka\domashka\obj\Debug\domashka.csproj.CoreCompileInputs.cache
+C:\Users\annpr\RiderProjects\domashka\domashka\obj\Debug\domashka.csproj.CopyComplete
+C:\Users\annpr\RiderProjects\domashka\domashka\obj\Debug\domashka.dll
+C:\Users\annpr\RiderProjects\domashka\domashka\obj\Debug\domashka.pdb
+C:\Users\annpr\RiderProjects\domashka\domashka\bin\Debug\chromedriver.exe
