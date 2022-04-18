@@ -63,32 +63,46 @@ public class EmailFormTest
         Assert.IsTrue(driver.FindElement(emailRadioFemaleLocator).Selected);
     }
     
-    [TestCase("", false)]
-    [TestCase("test.ru", false)]
-    [TestCase("test@test.", false)]
-    [TestCase("@test.ru", false)]
-    [TestCase("тест@тест.рф", true)]
-    [TestCase("test@test.ru", true)]
-    public void EmailCollectingPage_SendEmail_SuccessIfEmailIsValid(string email, bool emailIsValid)
+    [TestCase("тест@тест.рф")]
+    [TestCase("test@test.ru")]
+    public void EmailCollectingPage_SendEmail_Success(string email)
     {
         driver.FindElement(emailInputLocator).SendKeys(email);
         driver.FindElement(emailButtonLocator).Click();
-        Assert.AreEqual(driver.FindElement(emailValidationLocator).Displayed, !emailIsValid,
-            $"Валидация {new string(emailIsValid ? "зря" : "не")} сработала. Почта: {email}"
+        Assert.Multiple(() =>
+        {
+            Assert.IsTrue(!driver.FindElement(emailValidationLocator).Displayed, 
+                $"Валидация сработала на валидную почту: {email}");
+            Assert.That(driver.FindElements(successTextLocator).Count, Is.EqualTo(1));
+            Assert.That(driver.FindElements(successEmailLocator).Count, Is.EqualTo(1));
+            Assert.IsTrue(driver.FindElements(successEmailLocator)[0].Text.Contains(email),
+                $"В подтверждении отправки формы не указан введённый email: {email}"
             );
-        var successElements = driver.FindElements(successEmailLocator);
-        Assert.AreEqual(successElements.Count, (emailIsValid) ? 1 : 0, 
-            $"{new string(emailIsValid ? "Отсутствует" : "Зря появилось")} подтверждение отправки формы"
-            );
-        if (!emailIsValid) return;
-        Assert.IsTrue(successElements[0].Text.Contains(email), 
-            $"После отправки формы в тексте подтверждения не указан введённый email: {email}"
-            );
+        });
+    }
+
+    [TestCase("")]
+    [TestCase("   ")]
+    [TestCase("test.ru")]
+    [TestCase("test@test.")]
+    [TestCase("@test.ru")]
+    public void EmailCollectingPage_SendWrongEmail_Validation(string email)
+    {
+        driver.FindElement(emailInputLocator).SendKeys(email);
+        driver.FindElement(emailButtonLocator).Click();
+        var validationText = (email == "" ? "Введите email" : "Некорректный email");
+        Assert.Multiple(() =>
+        {
+            Assert.IsTrue(driver.FindElement(emailValidationLocator).Displayed,
+                $"Валидация не сработала на невалидную почту: {email}");
+            Assert.That(driver.FindElement(emailValidationLocator).Text, Is.EqualTo(validationText), 
+                "Текст валидации не соответствует прототипам");
+        });
     }
 
     [TestCase(true)]
     [TestCase(false)]
-    public void EmailCollectingPage_SendEmail_ResultTextContainsSelectedSex(bool maleIsSelected)
+    public void EmailCollectingPage_SendEmail_ResultTextIsRight(bool maleIsSelected)
     {
         if (!maleIsSelected)
         {
@@ -97,9 +111,17 @@ public class EmailFormTest
         driver.FindElement(emailInputLocator).SendKeys("test@test.ru");
         driver.FindElement(emailButtonLocator).Click();
         var parrotSex = (maleIsSelected) ? "мальчик" : "девочк";
-        Assert.IsTrue(driver.FindElement(successTextLocator).Text.Contains(parrotSex),
-            $"Выбранный пол: {parrotSex}.\n Текст после отправки формы: {driver.FindElement(successTextLocator).Text}"
+        Assert.Multiple(() =>
+        {
+            Assert.IsTrue(driver.FindElement(successTextLocator).Text.Contains(parrotSex),
+                $"Выбранный пол: {parrotSex}.\n Текст после отправки формы: {driver.FindElement(successTextLocator).Text}"
             );
+            Assert.That(driver.FindElement(successTextLocator).Text, 
+                Is.EqualTo($"Хорошо, мы пришлём имя для " +
+                $"{new string(maleIsSelected ? "вашего мальчика" : "вашей девочки")} " +
+                $"на e-mail:"),
+                "Текст подтверждения отправки формы не соответствует прототипам");
+        });
     }
 
     [Test]
