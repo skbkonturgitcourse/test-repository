@@ -100,8 +100,8 @@ public class PracticeParrotName
                 $"\tОжидалось пустое поле ввода e-mail\n" +
                 $"Фактическое значение поля ввода e-mail: '{driver.FindElement(_buttonSendMeLokator).Text}'");
             Assert.True(driver.FindElement(_emailInputLokator).GetAttribute("placeholder").Contains(_placeholderText),
-                $"\tТекст подсказки в прототипе: '{_buttonSendMeText}'\n" +
-                $"Фактический текст подсказки в поле ввода: '{driver.FindElement(_buttonSendMeLokator).Text}'");
+                $"\tТекст подсказки в прототипе: '{_placeholderText}'\n" +
+                $"Фактический текст подсказки в поле ввода: '{driver.FindElement(_emailInputLokator).GetAttribute("placeholder")}'");
             Assert.IsTrue(driver.FindElement(_buttonSendMeLokator).Displayed,
                 "Кнопка 'ПОДОБРАТЬ ИМЯ' отсутствует");
             Assert.True(driver.FindElement(_buttonSendMeLokator).Text.Contains(_buttonSendMeText),
@@ -197,8 +197,8 @@ public class PracticeParrotName
                 $"\tОжидалось, что поле ввода e-mail очистится\n" +
                 $"Фактическое значение поля ввода e-mail: '{driver.FindElement(_buttonSendMeLokator).Text}'");
             Assert.True(driver.FindElement(_emailInputLokator).GetAttribute("placeholder").Contains(_placeholderText),
-                $"\tОжидался текст подсказки в поле ввода: '{_buttonSendMeText}'\n" +
-                $"Фактический текст подсказки в поле ввода: '{driver.FindElement(_buttonSendMeLokator).Text}'");
+                $"\tОжидался текст подсказки в поле ввода: '{_placeholderText}'\n" +
+                $"Фактический текст подсказки в поле ввода: '{driver.FindElement(_emailInputLokator).GetAttribute("placeholder")}'");
             Assert.IsTrue(driver.FindElement(_buttonSendMeLokator).Displayed,
                 "Кнопка 'ПОДОБРАТЬ ИМЯ' не появилась");
             Assert.True(driver.FindElement(_buttonSendMeLokator).Text.Contains(_buttonSendMeText),
