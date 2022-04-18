@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "teEypcBziQkiEcbw2eCjOQv/WW75QGLEOGmkmA4cBK9fvkJo/d7wMrnq9i61IJjt0KuATf9IbwcAX9QC31k1hw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nrvsh\\RiderProjects\\SelenumTestsHome\\SelenumTestsHome\\SelenumTestsHome.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nrvsh\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
+    "C:\\Users\\nrvsh\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",
+    "C:\\Users\\nrvsh\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\nrvsh\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.1.0\\microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
+    "C:\\Users\\nrvsh\\.nuget\\packages\\microsoft.testplatform.testhost\\17.1.0\\microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
+    "C:\\Users\\nrvsh\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\nrvsh\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\nrvsh\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\nrvsh\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\nrvsh\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512",
+    "C:\\Users\\nrvsh\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
