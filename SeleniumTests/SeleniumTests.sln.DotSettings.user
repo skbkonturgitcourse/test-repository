@@ -1,0 +1,56 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1d6fdf6d_002D22ab_002D4693_002Dbfe3_002D2ccde5173197/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1 #9" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumTests.Wikipedia_Search_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.HomeWork&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=244c92de_002D2ff0_002D4115_002Dabde_002D30daf282a805/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FixPc_ClickLinkAnotherEmail_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4e51e934_002D5292_002D4644_002Db6db_002Db984a48bff89/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumTests.Test2&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4e987375_002Dde70_002D4d32_002D832b_002D11e5b30597f2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1 #7" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumClass.Test1&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=527a2d21_002D7d73_002D46c9_002D8c67_002Dcb32b1e00da5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1 #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumTests.Test1&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=65875d36_002Dcec4_002D4430_002D8053_002De240001584c9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumTests.Test1&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=666bd245_002D840e_002D4927_002D801f_002D3944282d225e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1 #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumTests.Test1&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=72593961_002D3c48_002D4115_002Dba41_002D9a4618e8f9e6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1 #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumClass&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9633347e_002D0b4e_002D48c9_002D8699_002D5ceea7cfc321/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1 #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumTests.Test1&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cc304aee_002D9b72_002D4f06_002Db018_002D8bce7b40a92c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1 #8" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumTests.Wikipedia_Search_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumTests.FixPc_SendEmail_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.FirstSeleniumTests.FixPc_ClickLinkAnotherEmail_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::E2207D64-8F62-4931-92F7-66AD6AF7C6F4::.NETFramework,Version=v3.5::SeleniumTests.HomeWork&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

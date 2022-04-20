@@ -1,0 +1,11 @@
+C:\Users\alexanderkozlov\RiderProjects\SeleniumTests\SeleniumTests\obj\Debug\SeleniumTests.csproj.AssemblyReference.cache
+C:\Users\alexanderkozlov\RiderProjects\SeleniumTests\SeleniumTests\obj\Debug\SeleniumTests.csproj.CoreCompileInputs.cache
+C:\Users\alexanderkozlov\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\SeleniumTests.dll
+C:\Users\alexanderkozlov\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\SeleniumTests.pdb
+C:\Users\alexanderkozlov\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\nunit.framework.dll
+C:\Users\alexanderkozlov\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\WebDriver.dll
+C:\Users\alexanderkozlov\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\nunit.framework.xml
+C:\Users\alexanderkozlov\RiderProjects\SeleniumTests\SeleniumTests\bin\Debug\WebDriver.xml
+C:\Users\alexanderkozlov\RiderProjects\SeleniumTests\SeleniumTests\obj\Debug\SeleniumTests.csproj.CopyComplete
+C:\Users\alexanderkozlov\RiderProjects\SeleniumTests\SeleniumTests\obj\Debug\SeleniumTests.dll
+C:\Users\alexanderkozlov\RiderProjects\SeleniumTests\SeleniumTests\obj\Debug\SeleniumTests.pdb
