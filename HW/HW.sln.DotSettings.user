@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4bf58813_002Df7d4_002D47a2_002Da99e_002D51a88ed1cfdb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="FixPc_SendEmailWithGirl_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AFD43085-41CF-45A4-995D-B69472FDF5F0::.NETFramework,Version=v4.8::HW.Class1.FixPc_SendEmailWithGirl_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AFD43085-41CF-45A4-995D-B69472FDF5F0::.NETFramework,Version=v4.8::HW.Class1.FixPc_SendEmailWithBoy_Success&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AFD43085-41CF-45A4-995D-B69472FDF5F0::.NETFramework,Version=v4.8::HW.Class1.FixPc_SendWrongEmail_Fail&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AFD43085-41CF-45A4-995D-B69472FDF5F0::.NETFramework,Version=v4.8::HW.Class1.FixPc_SendNewEmail_Success&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a3b11fe5_002D27d9_002D4f9b_002D898f_002D742a375a292b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FixPc_SendEmail_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AFD43085-41CF-45A4-995D-B69472FDF5F0::.NETFramework,Version=v4.8::HW.Class1.FixPc_SendEmailWithGirl_Success&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
