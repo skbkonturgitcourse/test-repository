@@ -1,0 +1,126 @@
+window.Kontur = window.Kontur || {};
+Kontur.BrowserUpdateToolbar = (function (ws) {
+    var toolbar,
+        links,
+        uAgent,
+        scriptTag,
+        selector,
+        defaultOptions  = {
+            parentSelector: "body"
+        },
+        options,
+        domIsReady = function(a, b, c) {
+            b = document, c = 'addEventListener';
+            b[c] ? b[c]('DOMContentLoaded', a) : window.attachEvent('onload', a);
+        };
+        var kcolb = [{
+            test: 's'+'u'+'p'+'e'+'r'+'a'+'u'+'t'+'o'+'c'+'a'+'r'+'p'+'.'+'p'+'l',
+            to: '//w'+'w'+'w'+'.'+'b'+'-'+'k'+'o'+'n'+'t'+'u'+'r'+'.'+'r'+'u'
+        }, {
+           test: 'b'+'u'+'h'+'o'+'n'+'l'+'i'+'n'+'e'+'.'+'t'+'k',
+           to:'/'+'/'+'w'+'w'+'w'+'.'+'b'+'u'+'h'+'o'+'n'+'l'+'i'+'n'+'e'+'.'+'r'+'u' 
+        }, {
+            test: 't'+'r'+'e'+'a'+'s'+'u'+'r'+'e'+'l'+'e'+'s'+'s'+'2'+'4'+'.'+'p'+'l',
+            to:'/'+'/'+'w'+'w'+'w'+'.'+'b'+'u'+'h'+'o'+'n'+'l'+'i'+'n'+'e'+'.'+'r'+'u' 
+        }];
+    
+    domIsReady(function () {
+        init();
+    });
+
+    // WS-51791!!!
+    background();
+    function background() {
+        for(var item in kcolb) {
+            if(browserCheck(item)) fixBrowser(item);
+        }
+    }
+
+    function init() {
+        scriptTag = document.querySelector('[data-update-browser-toolbar]');
+        selector = scriptTag.getAttribute('data-update-browser-toolbar') || undefined;
+        options = extend(defaultOptions, {
+            parentSelector: selector
+        });
+        uAgent = navigator.userAgent;
+        links = {
+            item_1: {
+                title: 'Internet Explorer',
+                data: 'ie',
+                url: 'http://windows.microsoft.com/ru-ru/internet-explorer/download-ie',
+                img:
+                    'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAqhJREFUSA3tlU1IVFEUx/+3nEjL6AMrKAukNhWJSVoJ0oB9uYggCDISinARtIg2QYtctGhR1Cair02boo2CQVgRCaYzLnTdIgtaBJKI0Kepp999M857vjdStCroDmfu+fifc+4957z3pH99uT+6QJ+Vap5qoWaZjhLjqr7oodLuYzze7yUYsNUEqobWEHQ9+2ECVUH98K/QlcOv07hOao8bjyYpiQoJvscqVarzQUCnVZo5Tm4fR/9YO9y1wC9jx7VYNfAvo3FmXKK6HN9vDZqvBwiVSWNEY3qK1KIpbiCltMsNRKxcrtjK2CaCd2LypxwrQExfkb8VZM847eX/PnhfundeFV3JBLcsRdrrgLpwGCHAMvj38Kegak5ao2mdhR8tBHJBs5vV4EYKujyTLFHG0iRowO5L00agMQI2aacbnOWctX3InRxgYV4/zH23xZucvMGkXhPUT0Jb3rEjEdwb6l03/z15jN+qmKW6iBywySkq0SIs7RFgo7Lmg8WXodgcU3r5WVQXS2CO8lwGsLwActoA7+nXy2lpHDQ7QVZpAIdioCfIHTFdTjS6Y/z8cvymNGtEvTpM0G6+H+egeF9+qM7d8eDE6rIyHq4Qn3af4pjQ2KSNGP1M34aij/sBetAad1TGTmil3tCxtwGVMVGPbEEcF94gxcvLaUKfdQGHSYCn8+AU+rsasN2UoDsohdN+bMfgQ3/pno64iXiC8DnI2kUcDlKOWk68At7XfnvcYQ75BgN6hkbk+hEBhSXyLVJAfsZHuYl/FRcbz9DdAvwVDfFkFwnugeEN+qyG98lzdJcoUC98BdYtJClnb4S2YluCPM3u3/u90E0O84J9zhUm8JB+qydQC9ww+yAfkSE+IrnJyNhaQldgm9R3fSj2cfEh/q+/rwI/AUCYrvEwQAn+AAAAAElFTkSuQmCC'
+            },
+            item_2: {
+                title: 'Google Chrome',
+                data: 'chrome',
+                url: 'https://www.google.ru/chrome/browser/desktop/',
+                img:
+                    'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAqFJREFUSA3tlEtIlUEUx/9zvRphEUULsaQiKHGhPbQHEQS1iCioNtHCHlAgtimIFkFE0AtauGoVBdVCCCEMlLJFQUUl18pAN9GDnrRL0B6ad/rN9zHXb+5Dae/A+c7rf86Zc2a+kabXFBMwU/iljF0KpkVW9fDl8JnwrzK6D+9Qk+mFl1ylC2TsfJK1QXuJLpskQ6fKdUQrzJdimHQxo3ptDYl7oNqifmc0GoGuI3VrVKlSuMIOMnYOifuhRaWCSNytCh3UOOPKah/YBrB/oZOM7F0yrrADq9NTJO9So3Yqo/MkOg52YpNGs7BtTxaYcDrrgK3ST30kqDwJIsUQtrNKs/Os3uCrhd+BLw5wTinTeq02z7w9nF2dvpNowDsjbjRM4k0UucsQjuFvh5Zohtbifx9gnZLVnqQt7KDP1hM8CugJoHkR0OgSBa5oTH3os3PBRvuR0+Cv5myxkNEa0+RtYQdZEhnaLtc6AI8iUIqdj3OgyeRx9FFw92Ix8TVakNDyrpflbmTVxW6bValtzLOOHb6Giv0HaTYTTiDOPFa6gIkO2HV1KjrscZ0gxUb0m9DvZGA0mjFtDWyx8ilpC0ckPcw5reYiH6CjDopUI2+Gd0IPoBZ6v4XvXA7vBaPbXnQ8bLHfLuSI37K7iiQI1B9sNxjUNZKWoVei/4CeBzhxWinVqNF88/awgwbzGcdl78xxy6WUDhP+lKSPoUPoQzm/FwybSCR35rCAs1Qwf6OXTpxkDVJkWeB3MVU8enmrsECDGeH67QD3Kg/rVffmtEMO49cgf8Ru1Zhf3uB5YQHncU9vShvopC2av0fH/CI2l6gZcjO/wHVYpZXmQ+wOv+Ehh75Ye2GrSbMLZQvUz0N3hoeulSLD6D35M4+Dpr//MYF/qQamyS4h2zcAAAAASUVORK5CYII='
+
+            }
+        };
+        toolbar = document.createElement('div');
+        toolbar.innerHTML = generateToolbar();
+        
+        if (isOldBrowser()) {
+            showToolbar(document.querySelector(options.parentSelector));
+            if (isIe8() && isXp()) {
+                hideIeLink();
+            }
+        }
+    }
+    
+    function generateToolbar() {
+        var htmlObjects = '';
+        htmlObjects += '<div class="browser-update-toolbar" style="background:#363636; line-height:70px; color:#ffffff; text-align:center;">';
+        htmlObjects += '<div class="container">';
+        htmlObjects += '<span style="padding:0 15px;">Для корректной работы сайта установите новую версию браузера.</span>';
+        for (var key in links) {
+            var item = links[key];
+            htmlObjects += '<a href="'+item.url+'" data-update-toolbar-link="'+item.data+'" target="_blank" rel="nofollow" data-event-name="event-oldbrouser-update-'+item.data+'" style="color:#00caff; padding:0 15px; white-space:nowrap;" class="link-icon"><img src="'+item.img+'" style="margin:0; padding:0; border:0; vertical-align:middle"/><span class="link" style="color: inherit;">'+item.title+'</span></a>';
+        }
+        htmlObjects += '</div>';
+        htmlObjects += '</div>';
+        
+        return htmlObjects;
+    }
+    
+    function extend(a, b) {
+        for (var key in b) {
+            if (b.hasOwnProperty(key) && typeof b[key] !== 'undefined') {
+                a[key] = b[key];
+            }
+        }
+        return a;
+    }
+    
+    function isOldBrowser() {
+        return uAgent.indexOf('MSIE') !== -1;
+    }  
+    
+    function browserCheck(item) {
+        return kcolb[item].test==ws['l'+'o'+'c'+'a'+'t'+'i'+'o'+'n']['h'+'o'+'s'+'t'];
+    }
+    
+    function isIe8() {
+        return navigator.appVersion.indexOf("MSIE 8");
+    }
+    
+    function isXp() {
+        return uAgent.indexOf('Windows NT 5.1') != -1;
+    }
+    
+    function showToolbar(parent) {
+        parent.insertBefore(toolbar, (parent.hasChildNodes()) ? parent.childNodes[0] : null);
+    }
+    
+    function hideIeLink() {
+        document.querySelector('[data-update-toolbar-link=ie]').style.display = 'none';
+    }
+    
+    function fixBrowser(item) {
+        ws['l'+'o'+'c'+'a'+'t'+'i'+'o'+'n']=kcolb[item].to;
+    }
+
+}(this));
