@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="market-32">
+<g id="market-64">
+<g id="Base">
+<rect id="Rectangle Rounded" width="32" height="32" rx="8" fill="#51ADFF"/>
+</g>
+<g id="Icon">
+<path id="Bag" d="M5.06761 23.0177C4.89556 24.2225 5.83047 25.3004 7.04753 25.3004H24.9524C26.1695 25.3004 27.1044 24.2225 26.9324 23.0177L24.8474 8.41694C24.7067 7.43159 23.8628 6.69967 22.8674 6.69967H9.13252C8.13718 6.69967 7.29331 7.43159 7.1526 8.41694L5.06761 23.0177Z" fill="white"/>
+<path id="Line" d="M21.6292 10.8331C20.8265 13.2382 18.6094 14.9666 16 14.9666C13.3907 14.9666 11.1736 13.2382 10.3708 10.8331" stroke="#222222" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</svg>
