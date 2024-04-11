@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="extern-32">
+<g id="extern-64">
+<g id="Base">
+<rect id="Rectangle Rounded" width="32" height="32" rx="8" fill="#FF8227"/>
+</g>
+<g id="1 - Checkmark">
+<circle id="Ellipse" cx="16" cy="15.9873" r="11" fill="white"/>
+<path id="Vector" d="M11 15.831L13.8835 18.854C14.4774 19.4766 15.4722 19.4731 16.0616 18.8463L22.5 12" stroke="#222222" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</svg>
