@@ -5,7 +5,7 @@ var A = self['DSPCounter' || 'AdriverCounterJS'],
 	a = A(ph);
 a.reply = {
 ph:ph,
-rnd:'417848',
+rnd:'38801',
 bt:62,
 sid:223606,
 pz:0,
@@ -19,17 +19,17 @@ pass:'',
 adid:0,
 bid:2864425,
 geoid:14,
-cgihref:'//ad.adriver.ru/cgi-bin/click.cgi?sid=223606&ad=0&bid=2864425&bt=62&bn=0&pz=0&xpid=DHowUEFu3HJYqvVrNPJxtFmPBpIK9zrP0TW9ZbfBjzOor6Y866x3pIvxPXff7dLbEI_NciW6gSa3ONA&ref=&custom=206%3DDSPCounter',
+cgihref:'//ad.adriver.ru/cgi-bin/click.cgi?sid=223606&ad=0&bid=2864425&bt=62&bn=0&pz=0&xpid=DL55K7FydR6ixuIBJiOX_v24JedZjpYzY13_gbiEvnx3zcNgntK35FoGhiA9Lf786YoO2uelfeP8kdg&ref=&custom=206%3DDSPCounter',
 target:'_blank',
 width:'0',
 height:'0',
 alt:'AdRiver',
-mirror:A.httplize('//servers7.adriver.ru'), 
+mirror:A.httplize('//masterh5.adriver.ru'), 
 comp0:'0/script.js',
 custom:{"206":"DSPCounter"},
 cid:'',
 uid:0,
-xpid:'DHowUEFu3HJYqvVrNPJxtFmPBpIK9zrP0TW9ZbfBjzOor6Y866x3pIvxPXff7dLbEI_NciW6gSa3ONA'
+xpid:'DL55K7FydR6ixuIBJiOX_v24JedZjpYzY13_gbiEvnx3zcNgntK35FoGhiA9Lf786YoO2uelfeP8kdg'
 }
 var r = a.reply;
 
@@ -57,7 +57,7 @@ if (r.comp0 == "script.js" && r.adid){
 		if (d.body){return i = mI(u, oL)}
 		if(y--){setTimeout(function(){st(u, oL)}, 100)}
 	}
-	st(o.hl('https://content.adriver.ru/banners/0002186/0002186173/0/s.html?0&0&1&0&417848&0&0&14&188.234.196.164&javascript&' + (o.all || 0)), oL);
+	st(o.hl('https://content.adriver.ru/banners/0002186/0002186173/0/s.html?0&0&1&0&38801&0&0&14&188.234.196.164&javascript&' + (o.all || 0)), oL);
 }({
 	hl: function httplize(s){return ((/^\/\//).test(s) ? ((location.protocol == 'https:')?'https:':'http:') : '') + s},
         
@@ -66,4 +66,4 @@ if (r.comp0 == "script.js" && r.adid){
 	
 }));
 }catch(e){} 
-}('1'));
+}('0'));
