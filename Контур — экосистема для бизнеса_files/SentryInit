@@ -1,0 +1,1 @@
+WebSitesSentry.init({'dsn':'https://c0aecdfb29b8454082d19f9ee6f00fd7@sentry.skbkontur.ru/162','environment':'Production','release':null,'tags':[['controller','Home'],['action','Index']]});
